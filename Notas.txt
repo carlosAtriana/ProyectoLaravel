@@ -1,0 +1,21 @@
+Comando para verificar si hay conexión con la base de datos 
+php artisan migrate
+
+comando para verificar que tengo la extension de mongodb habilitada en la instalación de php 
+php -m | findstr mongodb
+
+comando para crear el controlador ya con métodos crud definidos 
+php artisan make:controller StudentController --resource
+
+
+comando para habilitar las cors 
+composer require fruitcake/laravel-cors
+
+
+comando para uno eliminar una biblioteca 
+composer remove jenssegers/mongodb
+
+comandos para borrar caché 
+php artisan route:clear
+php artisan config:clear
+php artisan cache:clear
